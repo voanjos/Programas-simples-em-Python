@@ -1,14 +1,14 @@
-#Definição do numeral a ser convertido
+#Definição do numeral a ser convertido:
 num = int(input('Digite um número inteiro: '))
 
-#Definição da base para conversão
+#Definição da base para conversão:
 print('''Escolha uma das bases para conversão:
 [1] converter para BINÁRIO
 [2] converter para OCTAL
 [3] converter para HEXADECIMAL''')
 opção = int(input('Sua opção: '))
 
-#Condicionais
+#Condicionais para a resposta:
 if opção == 1:
     print('{} convertido em BINÁRIO: {}'.format(num, bin(num)[2:]))
 elif opção == 2:
