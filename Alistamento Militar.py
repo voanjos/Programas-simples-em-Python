@@ -2,12 +2,6 @@
 from datetime import date
 atual = date.today().year
 
-#Definindo ano de nascimento:
-#nasc = int(input('Ano de nascimento: '))
-
-#Definindo a idade:
-#idade = atual - nasc
-
 #Definindo o sexo
 sexo = int(input('''Masculino ou Feminino
 [1] Feminino
