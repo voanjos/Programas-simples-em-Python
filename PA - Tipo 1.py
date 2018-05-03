@@ -13,5 +13,6 @@ décimo = primeiro + (10) * razão
 # RANGE
 print()
 for c in range(primeiro, décimo,  razão):
-    print('{}'.format(c), end=' -> ')
+    print()
+    print('{}'.format(c),end=' -> ')
 print('Acabou!')
