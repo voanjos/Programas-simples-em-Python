@@ -23,9 +23,9 @@ while opção != 5:
     if opção == 3:
         print()
         if n1 > n2:
-            print('\33[33m{} é o maior.'.format(n1))
+            print('\33[33m{} é o maior número.'.format(n1))
         if n2 > n1:
-            print('\33[33m{} é o maior.'.format(n2))
+            print('\33[33m{} é o maior número.'.format(n2))
         else:
             print('\33[33mOs números são iguais!')
     if opção == 4:
