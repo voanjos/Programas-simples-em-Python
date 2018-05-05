@@ -25,5 +25,6 @@ while mais != 0:
     mais = int(input('Quantos temor vc quer mostrar a mais? '))
 
 # Total e Conclusão
-print('Progressão finalizada com {} termos mostrados.'.format(total))
+print('\33[32m ')
+print('Progressão finalizada com \"{}\" termos mostrados!'.format(total))
 print('FIM ;)')
