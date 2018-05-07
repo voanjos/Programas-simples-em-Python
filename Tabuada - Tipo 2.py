@@ -1,5 +1,5 @@
 # O programa faz a tabuada de qualquer número inteiro, quantas
-# vezes o usuário quiser, até digitar o número 0 (ZERO), que aciona o comando BREAK
+# vezes o usuário quiser, até digitar o número 0 (ZERO), que aciona o comando BREAK.
 
 while True:
     print()
